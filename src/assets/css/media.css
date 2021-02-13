@@ -86,3 +86,7 @@
         max-height:70%;
     }
 }
+
+.calendar-download:hover{
+    text-decoration:none;
+}
