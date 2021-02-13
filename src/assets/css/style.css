@@ -152,8 +152,51 @@ html{
 }
 
 .owl-nav{
+   outline: none;
    position: absolute;
    right: 100px;
    top: -50px;
 }
 
+.owl-prev:hover, .owl-next:hover{
+   background:none!important;
+}
+
+/* ================================================================ */
+.map-container{
+   overflow:hidden;
+   padding-bottom:50%;
+   position:relative;
+   height:0;
+}
+.map-container iframe{
+   left:0;
+   top:0;
+   height:100%;
+   width:100%;
+   position:absolute;
+}
+
+/* ================================================================ */
+
+
+.contacts-form__input{
+   min-height: 56px;
+}
+
+.сontact-form__wrapper{
+   margin-right: 60px;
+}
+
+.contacts-form__btn{
+   background-color: #175EAA;
+   min-height: 56px;
+}
+
+.contacts-form__btn:hover{
+   background-color: #175EAA;
+}
+
+.btn {
+   color: #fff;
+   }
