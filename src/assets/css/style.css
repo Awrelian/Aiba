@@ -234,3 +234,9 @@ html{
    display: none;
    color: #175EAA !important;
 }
+
+/* ============================================================================= */
+
+.about-text-grey{
+   max-width:779px  ;
+}
