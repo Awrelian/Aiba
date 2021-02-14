@@ -12,7 +12,18 @@
     }
 }
 
+@media only screen and (max-width: 1200px){
+    .calendar-table__h{
+        display: none
+    }
+
+    .table-h__mobile{
+        display:block;
+    }
+}
+
 @media only screen and (max-width: 1060px) {
+
     .news-block-wrapper {
         margin:0px;
      }
@@ -40,7 +51,9 @@
         padding-bottom:40% !important;
     }
 
-    
+    .table-h{
+    display:none;
+    }
 }
 
 @media only screen and (max-width: 767.8px){

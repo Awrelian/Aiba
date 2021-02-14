@@ -155,7 +155,7 @@ html{
    outline: none;
    position: absolute;
    right: 100px;
-   top: -50px;
+   top: -100px;
 }
 
 .owl-prev:hover, .owl-next:hover{
@@ -222,3 +222,15 @@ html{
    left: 0 !important;
 }
 
+
+/* ======================================================================= */
+
+.calendar-table__h{
+   color: #175EAA!important;
+   
+}
+
+.table-h__mobile{
+   display: none;
+   color: #175EAA !important;
+}
