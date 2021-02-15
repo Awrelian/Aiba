@@ -1,6 +1,7 @@
 .news-block__form{
     min-width:583px; 
     min-height:56px;
+    border:none;
 }
 
 .news-post-large__img{

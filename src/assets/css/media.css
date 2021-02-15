@@ -13,9 +13,10 @@
 }
 
 @media only screen and (max-width: 1200px){
-    .calendar-table__h{
+    .calendar-table{
         display: none
     }
+    
 
     .table-h__mobile{
         display:block;
@@ -59,6 +60,10 @@
 @media only screen and (max-width: 767.8px){
     html{
         font-size: 0.8rem;
+    }
+
+    .news-block__form{
+        min-width:450px;
     }
 
     .news-block-wrapper {
@@ -115,6 +120,7 @@
 }
 
 @media only screen and (max-width: 576px) {
+    
     .partners__item img {
         max-width: 30%;
         max-height:30%;
@@ -123,6 +129,10 @@
     .logo__img{
         max-width: 70%;
         max-height:70%;
+    }
+
+    .news-block__form{
+        min-width:250px;
     }
 }
 
