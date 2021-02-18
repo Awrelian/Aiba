@@ -166,6 +166,12 @@ a:hover{
    background:none!important;
 }
 
+.owl-carousel .owl-item img {
+   display: block;
+   width: 100%;
+   margin: 0 auto;
+}
+
 /* ================================================================ */
 .map-container{
    overflow:hidden;
@@ -287,6 +293,7 @@ a:hover{
    top: 0 !important;
    left: 0 !important;
 }
+
 
 .page-link:active{
    background: #175EAA;

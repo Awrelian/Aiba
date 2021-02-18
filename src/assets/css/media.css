@@ -62,6 +62,8 @@
         font-size: 0.8rem;
     }
 
+    
+
     .news-block__form{
         min-width:450px;
     }
@@ -128,7 +130,16 @@
 
 @media only screen and (max-width: 576px) {
     
-    
+    .navbar-brand{
+        max-width: 210px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .navbar-toggler{
+        margin-top:0.5rem;
+        margin-bottom: 0.5rem;
+    }
 
     .logo__img{
         max-width: 70%;
@@ -147,3 +158,4 @@
 .calendar-download:hover{
     text-decoration:none;
 }
+
